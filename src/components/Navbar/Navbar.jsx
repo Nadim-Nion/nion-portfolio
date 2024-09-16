@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaRegAddressCard } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navItems = <>
@@ -51,7 +51,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-active btn-neutral">Resume</button>
+                <Link to="https://github.com/Nadim-Nion">
+                    <button className="btn btn-active btn-neutral">GitHub</button>
+                </Link>
             </div>
         </div>
     );
