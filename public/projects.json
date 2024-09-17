@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "CompParts Hub",
+        "description": "Parts Manufacturer Service",
+        "image": "link-to-image",
+        "client": "https://github.com/Nadim-Nion/parts-manufacturer-client",
+        "server": "https://github.com/Nadim-Nion/parts-manufacturer-server",
+        "live": "https://parts-manufacturer-client.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "Bistro Boss",
+        "description": "Restaurant Website",
+        "image": "link-to-image",
+        "client": "https://github.com/Nadim-Nion/bistro-boss-client",
+        "server": "https://github.com/Nadim-Nion/bistro-boss-server",
+        "live": "https://bistro-boss-client-8d542.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "Car Doctor",
+        "description": "Car Servicing Platform",
+        "image": "link-to-image",
+        "client": "https://github.com/Nadim-Nion/car-doctor-client",
+        "server": "https://github.com/Nadim-Nion/car-doctor-server",
+        "live": "https://car-doctor-client-99145.web.app/"
+    }
+]
