@@ -1,0 +1,74 @@
+[
+    {
+        "name": "HTML",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+    },
+    {
+        "name": "CSS",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+    },
+    {
+        "name": "React",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+    },
+    {
+        "name": "DaisyUI",
+        "image": "https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+    },
+    {
+        "name": "Node.js",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+    },
+    {
+        "name": "Express.js",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+        "name": "MongoDB",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+    },
+    {
+        "name": "Stripe",
+        "image": "https://i.ibb.co.com/c1ctBj3/stripe.png"
+    },
+    {
+        "name": "JWT",
+        "image": "https://i.ibb.co.com/8XRpHt9/jwt.png"
+    },
+    {
+        "name": "Git",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+    },
+    {
+        "name": "GitHub",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+    },
+    {
+        "name": "Vercel",
+        "image": "https://i.ibb.co.com/q0M2tV0/vercel1868.jpg"
+    },
+    {
+        "name": "Netlify",
+        "image": "https://i.ibb.co.com/TRvrqJN/netlify.png"
+    },
+    {
+        "name": "Surge",
+        "image": "https://i.ibb.co.com/C57LSLH/surge.png"
+    },
+    {
+        "name": "VS Code",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+    },
+    {
+        "name": "Figma",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+    }
+]
