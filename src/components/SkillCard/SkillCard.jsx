@@ -31,7 +31,7 @@ const SkillCard = ({ skill }) => {
                 src={image}
                 alt={image}
                 className="rounded-xl w-[90px] h-[90px] mx-auto mb-3" />
-            <h2 className="text-center text-lg font-semibold">{name}</h2>
+            <h2 className="text-center text-lg font-semibold text-white">{name}</h2>
         </div>
     );
 };
