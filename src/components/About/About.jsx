@@ -11,8 +11,10 @@ const About = () => {
                     <h2 className='text-5xl font-bold'>Hi, This is <br />
                         <span>Nadim Mahmud Nion</span>
                     </h2>
-                    <h3 className='text-3xl text-purple-700 font-bold'>I am a Front-End Developer</h3>
-                    <p>I am a passionate and detail-oriented Junior Front-End Developer specializing in the MERN stack. I thrive on building responsive, user-friendly web applications with modern JavaScript frameworks like React, ensuring seamless user experiences. With hands-on experience in React.js, Node.js, MongoDB, Express, and RESTful APIs, I am eager to contribute innovative solutions to complex problems. I am driven by a strong learning mindset, collaborative work ethic, and the ability to quickly adapt to new challenges. I am looking to join a dynamic team where I can apply my skills and continue to grow as a developer.</p>
+                    <h3 className='text-3xl font-bold'>I am a
+                        <span className='text-purple-700 ml-3'>Front-End Developer</span>
+                    </h3>
+                    <p>I am a passionate Junior Front-End Developer specializing in the MERN stack. I enjoy building responsive, user-friendly web applications using modern frameworks like React. With experience in React.js, Node.js, MongoDB, Express, and RESTful APIs, I am eager to contribute innovative solutions and tackle complex challenges. I bring a strong learning mindset, collaborative work ethic, and adaptability to any team, and look forward to growing as a developer.</p>
                     <a href={resume} download>
                         <button className="btn btn-active btn-primary my-4">Download Resume</button>
                     </a>
