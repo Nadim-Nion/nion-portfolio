@@ -5,6 +5,7 @@ import MainLayout from '../layouts/MainLayout';
 import About from '../components/About/About';
 import Skill from '../components/Skill/Skill';
 import ErrorPage from '../components/ErrorPage/ErrorPage';
+import Project from '../components/Project/Project';
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
             {
                 path: '/skill',
                 element: <Skill></Skill>
+            },
+            {
+                path: '/projects',
+                element: <Project></Project>
             }
         ]
     },
