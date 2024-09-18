@@ -6,6 +6,7 @@ import About from '../components/About/About';
 import Skill from '../components/Skill/Skill';
 import ErrorPage from '../components/ErrorPage/ErrorPage';
 import Project from '../components/Project/Project';
+import Education from '../components/Education/Education';
 
 const router = createBrowserRouter([
     {
@@ -18,16 +19,20 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/about',
+                path: 'about',
                 element: <About></About>
             },
             {
-                path: '/skill',
+                path: 'skill',
                 element: <Skill></Skill>
             },
             {
-                path: '/projects',
+                path: 'projects',
                 element: <Project></Project>
+            },
+            {
+                path: 'education',
+                element: <Education></Education>
             }
         ]
     },
