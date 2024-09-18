@@ -4,16 +4,14 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navItems = <>
-        <ul className="menu menu-horizontal px-1 text-white">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li>
-                <NavLink to="/about">About</NavLink>
-            </li>
-            <li><NavLink to="/skill">Skill</NavLink></li>
-            <li><NavLink to="/projects">Projects</NavLink></li>
-            <li><NavLink to="/education">Education</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-        </ul>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li>
+            <NavLink to="/about">About</NavLink>
+        </li>
+        <li><NavLink to="/skill">Skill</NavLink></li>
+        <li><NavLink to="/projects">Projects</NavLink></li>
+        <li><NavLink to="/education">Education</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
     </>;
 
     return (
@@ -26,7 +24,7 @@ const Navbar = () => {
                             className="h-5 w-5"
                             fill="none"
                             viewBox="0 0 24 24"
-                            stroke="currentColor">
+                            stroke="white">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -36,8 +34,10 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        {navItems}
+                        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <ul className="menu menu-horizontal px-1 text-white">
+                            {navItems}
+                        </ul>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl text-white">
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-white">
                     {navItems}
                 </ul>
             </div>
