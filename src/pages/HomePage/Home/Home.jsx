@@ -3,17 +3,16 @@ import About from '../../../components/About/About';
 import Skill from '../../../components/Skill/Skill';
 import Project from '../../../components/Project/Project';
 import Education from '../../../components/Education/Education';
+import Contact from '../../../components/Contact/Contact';
 
 const Home = () => {
     return (
         <div>
-            {/* <div>
-                <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-            </div> */}
             <About></About>
             <Skill></Skill>
             <Project></Project>
             <Education></Education>
+            <Contact></Contact>
         </div>
     );
 };

@@ -7,6 +7,7 @@ import Skill from '../components/Skill/Skill';
 import ErrorPage from '../components/ErrorPage/ErrorPage';
 import Project from '../components/Project/Project';
 import Education from '../components/Education/Education';
+import Contact from '../components/Contact/Contact';
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             {
                 path: 'education',
                 element: <Education></Education>
+            },
+            {
+                path: 'contact',
+                element: <Contact></Contact>
             }
         ]
     },
