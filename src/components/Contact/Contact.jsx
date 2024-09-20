@@ -5,15 +5,15 @@ import Form from '../Form/Form';
 
 const Contact = () => {
     return (
-        <div className='max-w-full lg:max-w-7xl mx-auto p-7 mb-10'>
+        <div className='max-w-full lg:max-w-7xl mx-auto p-7 mb-4'>
             <h2 className='text-5xl font-bold text-white text-center'>Contact</h2>
 
-            <div className='flex flex-col md:flex-row justify-evenly items-center md:items-start my-10 min-h-screen'>
+            <div className='flex flex-col md:flex-row justify-evenly items-center md:items-start my-10'>
 
-                <div>
+                <div className='mb-8 md:mb-0'>
                     {/* Address */}
                     <div>
-                        <div>
+                        <div className='mb-6'>
                             <div className='flex justify-start items-center'>
                                 <IoLocation className='text-3xl text-white' />
                                 <h4 className='text-white text-lg font-semibold'>Address</h4>
@@ -26,8 +26,8 @@ const Contact = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className='my-7'>
-                        <div>
+                    <div>
+                        <div className='mb-6'>
                             <div className='flex justify-start items-center'>
                                 <FiPhoneCall className='text-2xl text-white mr-2' />
                                 <h4 className='text-white text-lg font-semibold'>Contact</h4>
