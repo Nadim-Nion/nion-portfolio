@@ -30,7 +30,7 @@ const Form = () => {
                     <div className="label">
                         <span className="label-text text-white text-lg">What is your email?</span>
                     </div>
-                    <input type="text" placeholder='Your Name' {...register("email", { required: true })} className="input input-bordered w-full max-w-xs" />
+                    <input type="text" placeholder='Your Email' {...register("email", { required: true })} className="input input-bordered w-full max-w-xs" />
                 </label>
                 {errors.email && <span className='text-red-700'>Email field is required</span>}
                 <br />
