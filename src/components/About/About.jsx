@@ -4,7 +4,7 @@ import resume from '../../assets/pdf/resume.pdf';
 
 const About = () => {
     return (
-        <div className='max-w-7xl mx-auto p-7'>
+        <div className='max-w-full lg:max-w-7xl mx-auto p-7'>
             <div className='flex flex-col lg:flex-row justify-center items-center lg:space-x-10 p-7'>
                 {/* About Content */}
                 <div className='text-white space-y-6 my-14 lg:w-1/2'>
@@ -14,7 +14,7 @@ const About = () => {
                     <h3 className='text-3xl font-bold'>I am a
                         <span className='text-purple-700 ml-3'>Front-End Developer</span>
                     </h3>
-                    <p>I am a passionate Junior Front-End Developer specializing in the MERN stack. I enjoy building responsive, user-friendly web applications using modern frameworks like React. With experience in React.js, Node.js, MongoDB, Express, and RESTful APIs, I am eager to contribute innovative solutions and tackle complex challenges. I bring a strong learning mindset, collaborative work ethic, and adaptability to any team, and look forward to growing as a developer.</p>
+                    <p>I am a Junior Front-End Developer specializing in the MERN stack, focused on building responsive, user-friendly web applications. Proficient in React.js, Node.js, MongoDB, Express, and RESTful APIs, I’m eager to contribute innovative solutions and tackle challenges. With a strong learning mindset and collaborative work ethic, I’m ready to grow as a developer.</p>
                     <a href={resume} download>
                         <button className="btn btn-active btn-primary my-4">Download Resume</button>
                     </a>

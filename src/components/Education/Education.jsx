@@ -3,7 +3,7 @@ import img from '../../assets/image/diu.png';
 
 const Education = () => {
     return (
-        <div className='max-w-7xl mx-auto p-7 mb-10'>
+        <div className='max-w-full lg:max-w-7xl mx-auto p-7 mb-10'>
             <h2 className='text-5xl font-bold text-white text-center'>Education</h2>
             <div className='border-2 border-gray-300 rounded-lg mt-7 p-12'>
                 {/* University Info */}
