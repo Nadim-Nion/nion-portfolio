@@ -6,7 +6,7 @@ const AnimatedButton = ({ text = "Download Resume", downloadLink }) => {
     <a
       href={downloadLink}
       download
-      className="relative inline-block px-8 py-5 text-white uppercase font-semibold tracking-widest overflow-hidden transition-all duration-500 hover:bg-white hover:text-black shadow-none hover:shadow-[0_0_5px_#fff,0_0_25px_#fff,0_0_50px_#fff,0_0_200px_#fff]"
+      className="relative inline-block px-8 py-5 text-white uppercase font-semibold tracking-widest overflow-hidden transition-all duration-500 hover:bg-white hover:text-black shadow-none hover:shadow-[0_0_5px_#fff,0_0_25px_#fff,0_0_50px_#fff,0_0_200px_#fff] mx-20 md:mx-0"
     >
       <span className="absolute top-0 left-0 w-full h-[10px] bg-gradient-to-r from-transparent to-white animate-slide-left"></span>
       <span className="absolute -top-full right-0 w-[10px] h-full bg-gradient-to-b from-transparent to-white animate-slide-down delay-75"></span>
