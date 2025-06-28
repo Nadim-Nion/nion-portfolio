@@ -12,8 +12,8 @@ const Education = () => {
                     <div className='flex justify-center items-center mb-4 md:mb-0'>
                         <img src={img} className='w-[60px] h-[60px]' alt="Daffodil International University" />
                     </div>
-                    <div className='ml-7 text-white text-center md:text-left'>
-                        <h3 className='text-2xl font-bold'>Daffodil International University</h3>
+                    <div className='ml-2 md:ml-4 text-white text-left'>
+                        <h3 className='text-xl md:text-2xl font-bold mb-2 md:mb-0'>Daffodil International University</h3>
                         <h4 className='text-md'>BSc. in Computer Science and Engineering</h4>
                         <h5 className='text-sm'>January 6, 2018 - February 17, 2023</h5>
                     </div>
