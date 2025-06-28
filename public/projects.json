@@ -1,29 +1,38 @@
 [
-    {
-        "id": 1,
-        "name": "CompParts Hub",
-        "description": "Parts Manufacturer Service",
-        "image": "https://i.ibb.co.com/KKS0DmP/Home-Comp-Parts-Hub.png",
-        "client": "https://github.com/Nadim-Nion/parts-manufacturer-client",
-        "server": "https://github.com/Nadim-Nion/parts-manufacturer-server",
-        "live": "https://parts-manufacturer-client.web.app/"
-    },
-    {
-        "id": 2,
-        "name": "Bistro Boss",
-        "description": "Restaurant Website",
-        "image": "https://i.ibb.co.com/TbKRYpY/Bistro-Home.png",
-        "client": "https://github.com/Nadim-Nion/bistro-boss-client",
-        "server": "https://github.com/Nadim-Nion/bistro-boss-server",
-        "live": "https://bistro-boss-client-8d542.web.app/"
-    },
-    {
-        "id": 3,
-        "name": "Car Doctor",
-        "description": "Car Servicing Platform",
-        "image": "https://i.ibb.co.com/xGQPKNG/Car-Doctor.png",
-        "client": "https://github.com/Nadim-Nion/car-doctor-client",
-        "server": "https://github.com/Nadim-Nion/car-doctor-server",
-        "live": "https://car-doctor-client-99145.web.app/"
-    }
+  {
+    "id": 1,
+    "name": "CompParts Hub",
+    "description": "Parts Manufacturer Service",
+    "image": "https://i.ibb.co.com/KKS0DmP/Home-Comp-Parts-Hub.png",
+    "client": "https://github.com/Nadim-Nion/parts-manufacturer-client",
+    "server": "https://github.com/Nadim-Nion/parts-manufacturer-server",
+    "live": "https://parts-manufacturer-client.web.app/"
+  },
+  {
+    "id": 2,
+    "name": "Bistro Boss",
+    "description": "Restaurant Website",
+    "image": "https://i.ibb.co.com/TbKRYpY/Bistro-Home.png",
+    "client": "https://github.com/Nadim-Nion/bistro-boss-client",
+    "server": "https://github.com/Nadim-Nion/bistro-boss-server",
+    "live": "https://bistro-boss-client-8d542.web.app/"
+  },
+  {
+    "id": 3,
+    "name": "Car Doctor",
+    "description": "Car Servicing Platform",
+    "image": "https://i.ibb.co.com/xGQPKNG/Car-Doctor.png",
+    "client": "https://github.com/Nadim-Nion/car-doctor-client",
+    "server": "https://github.com/Nadim-Nion/car-doctor-server",
+    "live": "https://car-doctor-client-99145.web.app/"
+  },
+  {
+    "id": 4,
+    "name": "Stack Write",
+    "description": "Blog Website",
+    "image": "https://i.ibb.co/KcHzJHD5/Stack-Write.png",
+    "client": "https://www.loom.com/share/36e574860e334575ae194e2401cc404c?sid=8ed07876-87b7-4d73-abce-309c89eb2799",
+    "server": "https://github.com/Nadim-Nion/stack-write",
+    "live": "https://stack-write.vercel.app/"
+  }
 ]
