@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../assets/image/My-Formal-Picture.JPG';
 import resume from '../../assets/pdf/resume.pdf';
+import AnimatedButton from '../AnimatedButton/AnimatedButton';
 
 const About = () => {
     return (
@@ -15,9 +16,10 @@ const About = () => {
                         <span className='text-purple-700 ml-3'>Front-End Developer</span>
                     </h3>
                     <p>I am a Junior Front-End Developer specializing in the MERN stack, focused on building responsive, user-friendly web applications. Proficient in React.js, Node.js, MongoDB, Express, and RESTful APIs, I’m eager to contribute innovative solutions and tackle challenges. With a strong learning mindset and collaborative work ethic, I’m ready to grow as a developer.</p>
-                    <a href={resume} download>
+                    {/* <a href={resume} download>
                         <button className="btn btn-active btn-primary my-4">Download Resume</button>
-                    </a>
+                    </a> */}
+                    <AnimatedButton downloadLink={resume}></AnimatedButton>
                 </div>
 
                 {/* Image */}
