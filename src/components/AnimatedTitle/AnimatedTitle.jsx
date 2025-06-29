@@ -49,7 +49,7 @@ const AnimatedTitle = () => {
       ref={containerRef}
     >
       <h3 className="inline-block text-white dark:text-white ml-12 md:ml-0">
-        I am a
+        I am
         <span className="ml-3 relative inline-block w-[380px] h-[2.5rem] align-middle overflow-hidden">
           {titles.map((title, i) => (
             <div

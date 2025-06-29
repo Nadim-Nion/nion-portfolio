@@ -72,7 +72,7 @@ const Navbar = () => {
         {/* Mobile Toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-white text-2xl mr-12 md:mr-0"
+          className="md:hidden text-white text-2xl mr-8 md:mr-0"
         >
           {mobileOpen ? <FaTimes /> : <FaBars />}
         </button>
