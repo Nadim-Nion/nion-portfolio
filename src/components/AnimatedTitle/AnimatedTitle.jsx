@@ -48,15 +48,15 @@ const AnimatedTitle = () => {
       onDoubleClick={handleDoubleClick}
       ref={containerRef}
     >
-      <h3 className="inline-block text-white dark:text-white ml-12 md:ml-0">
+      <h3 className="inline-block text-white dark:text-white ml-14 md:ml-0">
         I am
-        <span className="ml-3 relative inline-block w-[380px] h-[2.5rem] align-middle overflow-hidden">
+        <span className="ml-0 md:ml-3 relative inline-block w-[380px] h-[2.5rem] align-middle overflow-hidden">
           {titles.map((title, i) => (
             <div
               key={i}
               ref={(el) => (wordsRef.current[i] = el)}
               onClick={() => handleClick(i)}
-              className={`absolute left-0 top-0 w-full text-purple-700 transition-opacity duration-700 ease-in-out cursor-pointer opacity-0`}
+              className={`absolute left-0 top-0 w-full text-purple-700 transition-opacity duration-700 ease-in-out cursor-pointer opacity-0 ml-0`}
             >
               {title}
             </div>
