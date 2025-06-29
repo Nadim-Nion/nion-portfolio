@@ -2,11 +2,12 @@ import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLocation } from "react-icons/io5";
 import Form from "../Form/Form";
+import TextPopAnimation from "../TextPopAnimation/TextPopAnimation";
 
 const Contact = () => {
   return (
     <div className="max-w-full lg:max-w-7xl mx-auto p-7 mb-4">
-      <h2 className="text-5xl font-bold text-white text-center">Contact</h2>
+      <TextPopAnimation text={"Contact"}></TextPopAnimation>
 
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-start my-10">
         <div className="mb-8 md:mb-0 mt-0 md:mt-6">

@@ -1,10 +1,11 @@
 import React from 'react';
 import img from '../../assets/image/diu.png';
+import TextPopAnimation from '../TextPopAnimation/TextPopAnimation';
 
 const Education = () => {
     return (
         <div className='max-w-full lg:max-w-7xl mx-auto p-7 mb-10'>
-            <h2 className='text-5xl font-bold text-white text-center'>Education</h2>
+            <TextPopAnimation text={"Education"}></TextPopAnimation>
             <div className='border-2 border-gray-300 rounded-lg mt-7 p-8 md:p-12'>
 
                 {/* University Info */}
