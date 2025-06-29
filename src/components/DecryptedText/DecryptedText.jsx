@@ -106,7 +106,7 @@ const DecryptedText = () => {
     <div className=" flex relative font-mono">
       {/* Decode Text */}
       <div className="text-left">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">
+        <div className="text-3xl md:text-5xl font-bold tracking-wider">
           {text.split("").map((char, index) => (
             <span
               key={index}
