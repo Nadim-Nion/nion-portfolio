@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import AnimatedSubmitButton from "../AnimatedSubmitButton/AnimatedSubmitButton";
 
 const Form = () => {
   const {
@@ -70,8 +71,7 @@ const Form = () => {
           <span className="text-red-700">Text Area field is required</span>
         )}
         <br />
-
-        <button className="btn btn-primary my-5 w-full">Send Message</button>
+        <AnimatedSubmitButton></AnimatedSubmitButton>
       </form>
     </div>
   );
