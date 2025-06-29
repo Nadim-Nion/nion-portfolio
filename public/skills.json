@@ -1,74 +1,78 @@
 [
-    {
-        "name": "HTML",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-    },
-    {
-        "name": "CSS",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-    },
-    {
-        "name": "React",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-    },
-    {
-        "name": "Tailwind CSS",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-    },
-    {
-        "name": "DaisyUI",
-        "image": "https://i.ibb.co.com/Qr9jWQm/daisy-UI-removebg-preview.png"
-    },
-    {
-        "name": "JavaScript",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-    },
-    {
-        "name": "Node.js",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
-    },
-    {
-        "name": "Express.js",
-        "image": "https://i.ibb.co.com/c3W3PQw/express-js.png"
-    },
-    {
-        "name": "MongoDB",
-        "image": "https://i.ibb.co.com/30b5jJB/mongodb.png"
-    },
-    {
-        "name": "Stripe",
-        "image": "https://i.ibb.co.com/7Jc7vHV/stripe.png"
-    },
-    {
-        "name": "JWT",
-        "image": "https://i.ibb.co.com/gTctXHh/json-web-token.png"
-    },
-    {
-        "name": "Git",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
-    },
-    {
-        "name": "GitHub",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-    },
-    {
-        "name": "Vercel",
-        "image": "https://i.ibb.co.com/RgGqD3r/vercel.png"
-    },
-    {
-        "name": "Netlify",
-        "image": "https://i.ibb.co.com/dKgqFpg/netlify.png"
-    },
-    {
-        "name": "Surge",
-        "image": "https://i.ibb.co.com/CH3qsCn/surge-removebg-preview.png"
-    },
-    {
-        "name": "VS Code",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
-    },
-    {
-        "name": "Figma",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-    }
+  {
+    "name": "Typescript",
+    "image": "https://i.ibb.co/wrRmNf6y/typescript.png"
+  },
+  {
+    "name": "HTML",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+  },
+  {
+    "name": "CSS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+  },
+  {
+    "name": "React",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  },
+  {
+    "name": "DaisyUI",
+    "image": "https://i.ibb.co.com/Qr9jWQm/daisy-UI-removebg-preview.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+  },
+  {
+    "name": "Node.js",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+  },
+  {
+    "name": "Express.js",
+    "image": "https://i.ibb.co.com/c3W3PQw/express-js.png"
+  },
+  {
+    "name": "MongoDB",
+    "image": "https://i.ibb.co.com/30b5jJB/mongodb.png"
+  },
+  {
+    "name": "Stripe",
+    "image": "https://i.ibb.co.com/7Jc7vHV/stripe.png"
+  },
+  {
+    "name": "JWT",
+    "image": "https://i.ibb.co.com/gTctXHh/json-web-token.png"
+  },
+  {
+    "name": "Git",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+  },
+  {
+    "name": "GitHub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+  },
+  {
+    "name": "Vercel",
+    "image": "https://i.ibb.co.com/RgGqD3r/vercel.png"
+  },
+  {
+    "name": "Netlify",
+    "image": "https://i.ibb.co.com/dKgqFpg/netlify.png"
+  },
+  {
+    "name": "Surge",
+    "image": "https://i.ibb.co.com/CH3qsCn/surge-removebg-preview.png"
+  },
+  {
+    "name": "VS Code",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+  },
+  {
+    "name": "Figma",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+  }
 ]
