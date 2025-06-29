@@ -2,11 +2,14 @@ import React, { useState, useEffect } from "react";
 import { FaRegAddressCard } from "react-icons/fa";
 import { Link } from "react-router-dom"; // , NavLink
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link as ScrollLink } from "react-scroll";
+import { useNavItems } from "./useNavItems";
+// import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // const [mobileOpen, setMobileOpen] = useState(false);
+
+  const [ navItems, mobileOpen, setMobileOpen] = useNavItems();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,27 +19,27 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = (
-    <>
-      {["Home", "About", "Skill", "Projects", "Education", "Contact"].map(
-        (text) => (
-          <li key={text}>
-            <ScrollLink
-              to={text.toLowerCase()}
-              smooth={true}
-              duration={500}
-              offset={-80}
-              className="cursor-pointer group relative text-white px-2 py-1"
-              onClick={() => setMobileOpen(false)} // close mobile nav
-            >
-              {text}
-              <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-            </ScrollLink>
-          </li>
-        )
-      )}
-    </>
-  );
+  // const navItems = (
+  //   <>
+  //     {["Home", "About", "Skill", "Projects", "Education", "Contact"].map(
+  //       (text) => (
+  //         <li key={text}>
+  //           <ScrollLink
+  //             to={text.toLowerCase()}
+  //             smooth={true}
+  //             duration={500}
+  //             offset={-80}
+  //             className="cursor-pointer group relative text-white px-2 py-1"
+  //             onClick={() => setMobileOpen(false)} // close mobile nav
+  //           >
+  //             {text}
+  //             <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+  //           </ScrollLink>
+  //         </li>
+  //       )
+  //     )}
+  //   </>
+  // );
 
   return (
     <header
