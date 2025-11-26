@@ -32,12 +32,28 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
   },
   {
+    "name": "NestJS",
+    "image": "https://i.ibb.co.com/1tZ7QJCr/nestjs.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "image": "https://i.ibb.co.com/8Dsk86Vr/postgresql.png"
+  },
+  {
+    "name": "Prisma",
+    "image": "https://i.ibb.co.com/1Gpy7mB2/prisma-orm.jpg"
+  },
+  {
     "name": "Express.js",
     "image": "https://i.ibb.co.com/c3W3PQw/express-js.png"
   },
   {
     "name": "MongoDB",
     "image": "https://i.ibb.co.com/30b5jJB/mongodb.png"
+  },
+  {
+    "name": "Mongoose",
+    "image": "https://i.ibb.co.com/6JfBZmRg/mongoose.png"
   },
   {
     "name": "Stripe",
@@ -74,5 +90,13 @@
   {
     "name": "Figma",
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+  },
+  {
+    "name": "Firebase",
+    "image": "https://i.ibb.co.com/9kCgY6cY/firebase.png"
+  },
+  {
+    "name": "Google OAuth",
+    "image": "https://i.ibb.co.com/Q7RHXLmQ/oauth.png"
   }
 ]
